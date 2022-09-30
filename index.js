@@ -45,8 +45,24 @@
 // }
 // greeting('czar')
 
-function greeting(name) {
-    greet = `hi  ${name} , nice to meet you`
-    console.log(greet)
+// function greeting(name) {
+//     greet = `hi  ${name} , nice to meet you`
+//     console.log(greet)
+// }
+// greeting('czar')
+
+// function sum(a, b) {
+//     //return
+//     return a + b
+// }
+// num1 = sum(1, 2)
+// console.log(num1)
+
+function calculateTipAndFoodTotal(food, tip) {
+    tipPercentage = tip / 100
+    tipAmount = food * tipPercentage
+    total = food + tipAmount
+    return total
 }
-greeting('czar')
+ 
+console.log(calculateTipAndFoodTotal(100, 20))

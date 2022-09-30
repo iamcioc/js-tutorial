@@ -14,11 +14,39 @@
 // console.log(Math.floor(2.8838383))
 
 // Baby weather app
-let weather = prompt('how is the weather')
+// let weather = prompt('how is the weather')
 
-if (weather == 'rainy') {
-    console.log('grab your umbrella')
-} else {
-        console.log('wear your sunglasses')
-    }
+// if (weather == 'rainy') {
+//     console.log('grab your umbrella')
+// } else {
+//         console.log('wear your sunglasses')
+//     }
 
+// functions
+// this is a function called "sayMyName" and has 0 arument
+//it logs out your name to the console
+// function sayMyName() {
+//     console.log('Czar')
+//     console.log('queen')
+//     console.log('harry')
+// }
+//  sayMyName();
+ 
+// this is a function called 'sayMyName'
+//it has one argument
+// function sayMyName2(name) {
+//     console.log(name)
+// }
+// sayMyName('czar')
+
+// function greeting(name) {
+//     greet = 'hi ' + name + ', nice to meet you'
+//     console.log(greet)
+// }
+// greeting('czar')
+
+function greeting(name) {
+    greet = `hi  ${name} , nice to meet you`
+    console.log(greet)
+}
+greeting('czar')

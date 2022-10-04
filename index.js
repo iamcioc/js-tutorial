@@ -6,7 +6,6 @@
 // console.log('tip amount', tipAmount)
 // console.log('total', total)
 
-
 // Data types
 
 // console.log(Math.floor(Math.random() * 3));
@@ -31,7 +30,7 @@
 //     console.log('harry')
 // }
 //  sayMyName();
- 
+
 // this is a function called 'sayMyName'
 //it has one argument
 // function sayMyName2(name) {
@@ -59,10 +58,10 @@
 // console.log(num1)
 
 function calculateTipAndFoodTotal(food, tip) {
-    tipPercentage = tip / 100
-    tipAmount = food * tipPercentage
-    total = food + tipAmount
-    return total
+	tipPercentage = tip / 100;
+	tipAmount = food * tipPercentage;
+	total = food + tipAmount;
+	return total;
 }
- 
-console.log(calculateTipAndFoodTotal(100, 20))
+
+console.log(calculateTipAndFoodTotal(100, 20));
